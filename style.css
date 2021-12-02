@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    display: grid;
+    width: 100%;
+}
+
+.box{
+    max-width:600px;
+    height:90%;
+    background-color: black;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    position: relative;
+}
+.ball{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+}
+
+.red{
+    background-color:  red;
+}
+
+.blue{
+    background-color: blue;
+}
+.center-section{
+    margin: auto;
+}
+
+#moving-ball{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+}
